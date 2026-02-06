@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Camera, Film, Palette, Code, Music, Users, Star, TrendingUp, Award, ArrowRight } from 'lucide-react';
 
 export default function Services() {
-  const [selectedService, setSelectedService] = useState(null);
 
   const services = [
     {
